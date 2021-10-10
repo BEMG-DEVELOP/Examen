@@ -7,58 +7,34 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## Acerca del proyecto.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Este proyecto es una examen donde nos brindaron los requerimientos para y el diagrama de la base de datos.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+ESte poryecto tiene el objetivo llevar un control sobre las calificaciones obtenidas por los alumnos durante su primer semestre. Para ello se creó una Base de Datos con el objetivo de guardar esta información, las funciones principales que debe hacer son las siguientes:
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+    ->Busquedas de alumnos.
+    ->Busquedas de materias.
+    ->Inscripcion de una materia.
+    ->Consulta de materias inscritas.
+    ->Guardar calificaciones.
+    ->Dar de baja materias.
 
-## Learning Laravel
+Las condiciones de este proyecto era que se podia ocupar cualquier tipo de herramientas, pero que sea solo en el lenguaje PHP.
+Sobre la base de datos el manejador debia ser MySQL, el nombre de la base DB_Univer_Prodesat y que el usuario sea el predeterminado.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+El desarrollo de este examen fue rapido para mi, pero con algunos problemas sobre la base de datos, ya que los nombres de las tablas los copie tal cual venian en el documento que nos mandaron, pero que se lograron solucionar.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+La creacion de las interfaces yo se que no fue la mejor ya que en diseño no soy bueno, es algo simple, por el tiempo que nos daban para desarrollar el proyecto.
 
-## Laravel Sponsors
+En el desarrollo del back end, se uso la arquitectura de software  MVC de los cuales se guardaban, modificaban y se consultan los datos de la base de datos y llamandolos por medio de rutas, para ver las interfaces llamar a las funciones de los controladores.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+Conforme a la informacion que nos brindaron, desarroller el proyecto a como lo pense, para mi el proyecto ya hace lo que se requeria, pero nunca se acaban los detalles y las mejoras al proyecto, aun lo editando. 
 
-### Premium Partners
+Me gustaria saber la opinion que tienes de este proyecto, si tienes otra forma de resolver los requerimientos o si hay algo que no funciona.
+Aqui en github creo esta el apartado de discusion para poder dar tu opinio.
+### Desarrollado por:
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[CMS Max](https://www.cmsmax.com/)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
+- **[BEMG_DEVELOP](https://beacons.ai/bemg_develop)**
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
